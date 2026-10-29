@@ -1,0 +1,803 @@
+{
+  "profile": {
+    "nameZh": "刘源",
+    "nameEn": "Yuan Liu",
+    "github": "IVMYM",
+    "githubUrl": "https://github.com/IVMYM",
+    "kicker": {
+      "zh": "个人开发者 · 软件外包",
+      "en": "Independent developer · software outsourcing"
+    },
+    "tagline": {
+      "zh": "一个人承接外包：AI 应用、企业系统、网站与小程序。",
+      "en": "A one-person freelancer for outsourced work: AI applications, enterprise systems, websites, and mini-programs."
+    },
+    "summary": {
+      "zh": "任职期间做过企业级 Agent 平台、视觉检测、政企价格测算和可信问数。个人项目包括 iOS 原片备份，以及用对象存储在机器之间中转文件。",
+      "en": "At a software company I have worked on an enterprise agent platform, visual inspection, enterprise-account pricing, and trusted natural-language querying. Personal projects include incremental backup of iPhone originals, and a file relay over object storage."
+    }
+  },
+  "ui": {
+    "skip": { "zh": "跳到内容", "en": "Skip to content" },
+    "navWork": { "zh": "作品", "en": "Work" },
+    "navServices": { "zh": "服务", "en": "Services" },
+    "navSkills": { "zh": "技术", "en": "Stack" },
+    "navContact": { "zh": "联系", "en": "Contact" },
+    "langGroup": { "zh": "语言", "en": "Language" },
+    "themeToDark": { "zh": "切换到深色", "en": "Switch to dark" },
+    "themeToLight": { "zh": "切换到浅色", "en": "Switch to light" },
+    "viewWork": { "zh": "查看作品", "en": "View work" },
+    "servicesTitle": { "zh": "能接的活", "en": "What I take on" },
+    "servicesLead": {
+      "zh": "三种外包。范围以当面谈的需求为准，下面是我实际做过的类型。",
+      "en": "Three kinds of outsourced work. Scope is whatever we agree; these are the kinds of systems I have actually built."
+    },
+    "workTitle": { "zh": "代表作", "en": "Selected work" },
+    "workLead": {
+      "zh": "八个可以公开写的项目。公司项目只写问题、架构和我做过的事，不放代码。",
+      "en": "Eight projects that can be described in public. Company work stays at the problem, the architecture, and what I did — no code."
+    },
+    "alsoTitle": { "zh": "其他", "en": "Also" },
+    "skillsTitle": { "zh": "技术栈", "en": "Stack" },
+    "skillsLead": {
+      "zh": "只列上面项目里用过的技术。",
+      "en": "Only technologies that show up in the work above."
+    },
+    "contactTitle": { "zh": "联系", "en": "Contact" },
+    "contactLead": {
+      "zh": "外包和合作可以写信，也可以从 GitHub 找到我。",
+      "en": "For outsourcing and collaboration, write to me, or find me on GitHub."
+    },
+    "contactTodo": {
+      "zh": "TODO：邮箱还没填。把 content/site.json 里的 contact.email 换成你的地址后，这里会变成可用的邮件链接。",
+      "en": "TODO: no email yet. Replace contact.email in content/site.json and this becomes a working mailto link."
+    },
+    "emailLabel": { "zh": "邮箱", "en": "Email" },
+    "back": { "zh": "全部作品", "en": "All work" },
+    "problem": { "zh": "要解决的事", "en": "The problem" },
+    "role": { "zh": "我做的部分", "en": "What I did" },
+    "architecture": { "zh": "架构", "en": "Architecture" },
+    "stack": { "zh": "技术栈", "en": "Stack" },
+    "note": { "zh": "说明", "en": "Note" },
+    "related": { "zh": "一并放在这里", "en": "Grouped here" },
+    "source": { "zh": "公开仓库", "en": "Public repo" },
+    "prev": { "zh": "上一个", "en": "Previous" },
+    "next": { "zh": "下一个", "en": "Next" },
+    "caseBadge": { "zh": "任职期间", "en": "At a software company" },
+    "personalBadge": { "zh": "个人项目", "en": "Personal" },
+    "notFound": { "zh": "没有这个项目。", "en": "There is no project with that id." },
+    "footerNote": {
+      "zh": "案例只写可以公开的事实。不知道的结果就不写。",
+      "en": "Cases include only facts that can be public. Unknown results are left out."
+    },
+    "titleSuffix": { "zh": "作品集", "en": "Portfolio" },
+    "menu": { "zh": "菜单", "en": "Menu" }
+  },
+  "services": [
+    {
+      "id": "ai",
+      "title": { "zh": "AI 应用", "en": "AI applications" },
+      "text": {
+        "zh": "把模型接到已有流程里：企业 Agent、巡检图像、自然语言问数、大模型网关。也包括 MCP 工具和桌面端交付。",
+        "en": "Models wired into an existing flow: enterprise agents, inspection images, natural-language querying, and LLM gateways. Also MCP tools and desktop delivery."
+      }
+    },
+    {
+      "id": "enterprise",
+      "title": { "zh": "企业系统", "en": "Enterprise systems" },
+      "text": {
+        "zh": "Java / Spring Boot 业务系统，例如测算、审批、对接和部署。也写 Python 服务。",
+        "en": "Java and Spring Boot business systems — estimation, approval, integration, and deployment — and Python services."
+      }
+    },
+    {
+      "id": "web",
+      "title": { "zh": "网站与小程序", "en": "Websites and mini-programs" },
+      "text": {
+        "zh": "管理端、PC / H5 和轻量 Web 工具，以及网站、小程序外包。需要时可以做到 Electron 或 iOS。",
+        "en": "Admin consoles, PC and H5, small web tools, and website or mini-program engagements. Electron or iOS when the work calls for it."
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "fineloom",
+      "kind": "case",
+      "title": {
+        "zh": "FineLoom 企业级 AI Agent 平台",
+        "en": "FineLoom enterprise AI agent platform"
+      },
+      "summary": {
+        "zh": "企业级 Agent 平台，包含管理端、PC/H5、Electron 桌面端、MCP Hub、Skill Hub 和网关。运行时分 iCat 与 DSH 两支。",
+        "en": "An enterprise agent platform with an admin console, PC and H5 clients, an Electron desktop app, an MCP Hub, a Skill Hub, and a gateway. Two runtimes: iCat and DSH."
+      },
+      "period": { "zh": "2026-06 至 2026-10", "en": "Jun 2026 – Oct 2026" },
+      "problem": {
+        "zh": "平台要同时放下两种运行方式：iCat 用 Kafka worker 常驻处理；DSH 基于开源 deepseek-harness，每个用户一个容器。管理端、网页端和桌面端接到同一套网关，并提供 MCP 与技能能力。",
+        "en": "The platform had to host two runtimes at once. iCat keeps Kafka workers running. DSH is based on the open-source project deepseek-harness, with one container per user. Admin, web, and desktop clients share a gateway, alongside MCP and skill hubs."
+      },
+      "role": [
+        {
+          "zh": "按提交次数是这个仓库的第 3 名贡献者，共 25 次（2026-06 至 2026-10）。",
+          "en": "Third by commit count on this repository: 25 commits, from June through October 2026."
+        },
+        {
+          "zh": "桌面端打包，以及 NSIS 安装包。",
+          "en": "Desktop packaging, and the NSIS installer."
+        },
+        {
+          "zh": "FineNote 笔记服务。",
+          "en": "The FineNote note service."
+        },
+        {
+          "zh": "企业微信单点登录和工作台集成。",
+          "en": "WeCom single sign-on and workbench integration."
+        },
+        {
+          "zh": "Docker 构建与运行上的优化。",
+          "en": "Docker build and runtime optimization."
+        }
+      ],
+      "diagram": {
+        "caption": {
+          "zh": "iCat 走 Kafka worker。DSH 由控制器按用户起容器，上游是 deepseek-harness。",
+          "en": "iCat is Kafka workers. DSH starts a container per user through a controller. Upstream is deepseek-harness."
+        },
+        "steps": [
+          {
+            "title": { "zh": "使用端", "en": "Clients" },
+            "items": [
+              { "zh": "管理端", "en": "Admin" },
+              { "zh": "PC / H5", "en": "PC / H5" },
+              { "zh": "Electron 桌面端", "en": "Electron desktop" }
+            ]
+          },
+          {
+            "title": { "zh": "网关", "en": "Gateway" },
+            "items": [
+              { "zh": "Python 网关", "en": "Python gateway" },
+              { "zh": "Node 网关", "en": "Node gateway" }
+            ]
+          },
+          {
+            "title": { "zh": "运行时", "en": "Runtimes" },
+            "items": [
+              { "zh": "iCat · Kafka worker", "en": "iCat · Kafka workers" },
+              { "zh": "DSH · 每用户一容器", "en": "DSH · one container per user" }
+            ]
+          },
+          {
+            "title": { "zh": "能力与数据", "en": "Hubs and data" },
+            "items": ["MCP Hub", "Skill Hub", "PostgreSQL"]
+          }
+        ]
+      },
+      "stack": [
+        "Python",
+        "Node.js",
+        "Electron",
+        "PostgreSQL",
+        "Kafka",
+        "Docker",
+        "NSIS",
+        "GitHub Actions",
+        "Gitea Actions"
+      ],
+      "note": {
+        "zh": "DSH 基于开源项目 deepseek-harness（上游许可证 MIT），每个用户一个容器。本页只说明架构和我的职责，不包含代码、仓库或内部地址。",
+        "en": "DSH is based on the open-source project deepseek-harness (upstream license: MIT), with one container per user. This page covers architecture and my part in it. It does not include code, a repository, or internal addresses."
+      },
+      "links": [
+        {
+          "href": "https://github.com/deepseek-ai/deepseek-harness",
+          "label": "deepseek-ai/deepseek-harness"
+        }
+      ]
+    },
+    {
+      "id": "odn",
+      "kind": "case",
+      "title": {
+        "zh": "ODN 光交箱智能检测",
+        "en": "ODN cabinet inspection"
+      },
+      "summary": {
+        "zh": "识别光交箱巡检照片里的异常。YOLO 与 Qwen-VL 各一套，并识别二维码。客户是某省运营商。",
+        "en": "Finds anomalies in optical cross-connect cabinet inspection photos. One YOLO pipeline and one Qwen-VL pipeline, plus QR decoding. The client was a provincial telecom operator."
+      },
+      "problem": {
+        "zh": "巡检会积累大量光交箱照片。系统从照片里标出异常，并用 pyzbar 读取二维码。检测有两个版本：YOLO，以及后来的 Qwen-VL 多模态版本。",
+        "en": "Inspections accumulate cabinet photos. The service marks anomalies in a photo and reads QR codes with pyzbar. There are two detectors: YOLO, and a later Qwen-VL multimodal version."
+      },
+      "role": [
+        {
+          "zh": "提交了立项。",
+          "en": "Opened the project."
+        },
+        {
+          "zh": "完成多模态版本 VL 1.1.0 的生产发布。",
+          "en": "Shipped the multimodal VL 1.1.0 production release."
+        },
+        {
+          "zh": "我在这个仓库有 6 次提交。检测功能的主要开发是同事做的，这里不把模型实现写成我的个人作品。",
+          "en": "I have six commits in the repository. A teammate led the detector work, so the model implementation is not presented as my own product."
+        }
+      ],
+      "diagram": {
+        "caption": {
+          "zh": "同一张巡检照片可以走 YOLO 或 Qwen-VL。二维码识别并行于检测。页面不用现场照片。",
+          "en": "The same inspection photo can go through YOLO or Qwen-VL. QR decoding sits beside detection. This page uses no field photos."
+        },
+        "steps": [
+          {
+            "title": { "zh": "输入", "en": "Input" },
+            "items": [{ "zh": "巡检照片", "en": "Inspection photo" }]
+          },
+          {
+            "title": { "zh": "服务", "en": "Service" },
+            "items": ["FastAPI", "Docker"]
+          },
+          {
+            "title": { "zh": "检测", "en": "Detection" },
+            "items": ["YOLO", "Qwen-VL", "pyzbar"]
+          },
+          {
+            "title": { "zh": "结果", "en": "Result" },
+            "items": [
+              { "zh": "异常标记", "en": "Anomaly marks" },
+              { "zh": "二维码内容", "en": "QR payload" }
+            ]
+          }
+        ]
+      },
+      "stack": ["Python", "FastAPI", "YOLO", "Qwen-VL", "pyzbar", "Docker"],
+      "note": {
+        "zh": "案例不使用任何现场照片。",
+        "en": "The case uses no field photos."
+      }
+    },
+    {
+      "id": "pricing",
+      "kind": "case",
+      "title": {
+        "zh": "政企项目价格测算",
+        "en": "Enterprise-account price estimation"
+      },
+      "summary": {
+        "zh": "测算政企项目的成本与价格：分位价格异常、Qwen 产品名匹配、向量检索推荐、多级审批。大模型网关支持国密 SM4。客户是某省运营商。",
+        "en": "Estimates cost and price for a carrier’s enterprise and government projects: percentile price anomalies, Qwen product-name matching, vector-search recommendations, and multi-level approval. The LLM gateway supports SM4. The client was a provincial telecom operator."
+      },
+      "period": { "zh": "我的后端提交：2026-07 至 09", "en": "My backend commits: Jul–Sep 2026" },
+      "problem": {
+        "zh": "政企报价要对照历史价格发现异常价，把不统一的产品名对齐，给出推荐，并按层级审批。调用大模型的网关需要支持国密 SM4。",
+        "en": "Pricing for enterprise and government accounts has to spot outliers against historical prices, align inconsistent product names, offer recommendations, and pass multi-level approval. The gateway in front of the model has to support SM4."
+      },
+      "role": [
+        {
+          "zh": "2026-07 至 2026-09，后端 22 次提交。",
+          "en": "22 backend commits from July through September 2026."
+        },
+        {
+          "zh": "抽象了 LlmGateway。",
+          "en": "Introduced the LlmGateway abstraction."
+        },
+        {
+          "zh": "修复 Tomcat 的 CLOSE_WAIT 连接泄漏。",
+          "en": "Fixed a Tomcat CLOSE_WAIT connection leak."
+        },
+        {
+          "zh": "适配 Nginx 二级路径部署。",
+          "en": "Adapted deployment to an Nginx subpath."
+        }
+      ],
+      "diagram": {
+        "caption": {
+          "zh": "页面经 Nginx 进入 Spring Boot。测算、审批、网关和向量检索在同一套服务里。",
+          "en": "The page reaches Spring Boot through Nginx. Estimation, approval, the gateway, and vector search live in that service."
+        },
+        "steps": [
+          {
+            "title": { "zh": "入口", "en": "Edge" },
+            "items": [
+              { "zh": "ECharts 页面", "en": "ECharts UI" },
+              { "zh": "Nginx 二级路径", "en": "Nginx subpath" }
+            ]
+          },
+          {
+            "title": { "zh": "业务", "en": "Application" },
+            "items": [
+              "Spring Boot 3.4",
+              { "zh": "分位价格异常", "en": "Percentile price anomalies" },
+              { "zh": "多级审批", "en": "Multi-level approval" }
+            ]
+          },
+          {
+            "title": { "zh": "模型与检索", "en": "Model and search" },
+            "items": [
+              { "zh": "LlmGateway · SM4", "en": "LlmGateway · SM4" },
+              { "zh": "Qwen 产品名匹配", "en": "Qwen name matching" },
+              { "zh": "向量检索推荐", "en": "Vector-search recommendations" }
+            ]
+          },
+          {
+            "title": { "zh": "数据", "en": "Data" },
+            "items": ["MySQL", "Redis", "Docker"]
+          }
+        ]
+      },
+      "stack": [
+        "Java 17",
+        "Spring Boot 3.4",
+        "MySQL",
+        "Redis",
+        "ECharts",
+        "Nginx",
+        "Docker",
+        "Qwen",
+        "SM4"
+      ],
+      "note": {
+        "zh": "上面列的是系统能力和我提交过的部分。没有对外的效果数字。",
+        "en": "The list above is the system’s capability and the parts I committed. There are no published outcome numbers."
+      }
+    },
+    {
+      "id": "trustsql",
+      "kind": "personal",
+      "title": {
+        "zh": "TrustSQL 可信问数",
+        "en": "TrustSQL trusted querying"
+      },
+      "summary": {
+        "zh": "把自然语言转成可校验的 SQL：九类知识对象做元数据，三层校验，黄金集回归，并用 MCP 对外提供工具。样例数据是模拟的商业银行取数场景。",
+        "en": "Turns natural language into SQL that can be checked: nine knowledge objects as metadata, three validation layers, and golden-set regression, exposed as MCP tools. The sample data is a simulated commercial-bank retrieval scenario."
+      },
+      "problem": {
+        "zh": "直接采用模型写出的 SQL 难以审计。生成需要被元数据约束，执行前做三层校验，并用一套固定的黄金集做回归。",
+        "en": "SQL written straight by a model is hard to audit. Generation has to be constrained by metadata, checked in three layers before it runs, and regressed against a fixed golden set."
+      },
+      "role": [
+        {
+          "zh": "按个人方案和演示来写。工作副本不是独立的 git 仓库，没有提交记录可以核对。",
+          "en": "Presented as a personal proposal and demo. The working copy was not its own git repository, so there is no commit history to cite."
+        },
+        {
+          "zh": "数据是模拟的，不是生产库。",
+          "en": "The data is simulated, not a production database."
+        }
+      ],
+      "related": {
+        "zh": "同一方向上还有一个独立的 NL2SQL MCP 服务：符合 MCP 标准，把自然语言转成 SQL，对象是运营商的数据仓库。它和 TrustSQL 放在一起说明，不单独列成案例。",
+        "en": "In the same direction, a separate NL2SQL MCP server turns natural language into SQL for a telecom operator’s data warehouse. It is grouped with TrustSQL rather than listed as its own case."
+      },
+      "diagram": {
+        "caption": {
+          "zh": "问题先落到九类知识对象上，再生成 SQL、做三层校验，并用黄金集回归。对外是 MCP 工具。",
+          "en": "A question lands on nine knowledge objects, then becomes SQL, passes three checks, and is regressed on a golden set. The outside interface is MCP."
+        },
+        "steps": [
+          {
+            "title": { "zh": "问题", "en": "Question" },
+            "items": [
+              { "zh": "自然语言", "en": "Natural language" },
+              { "zh": "React 界面", "en": "React UI" }
+            ]
+          },
+          {
+            "title": { "zh": "约束", "en": "Constraints" },
+            "items": [
+              { "zh": "九类知识对象", "en": "Nine knowledge objects" },
+              "sqlglot"
+            ]
+          },
+          {
+            "title": { "zh": "校验", "en": "Checks" },
+            "items": [
+              { "zh": "三层校验", "en": "Three validation layers" },
+              { "zh": "黄金集回归", "en": "Golden-set regression" }
+            ]
+          },
+          {
+            "title": { "zh": "出口", "en": "Outlet" },
+            "items": ["FastMCP", "CodeMirror", "ECharts"]
+          }
+        ]
+      },
+      "stack": [
+        "Python",
+        "Alembic",
+        "React",
+        "ECharts",
+        "CodeMirror",
+        "sqlglot",
+        "FastMCP",
+        "Docker Compose"
+      ],
+      "note": {
+        "zh": "后端是 Python。接口形态从目录看接近 FastAPI，依赖清单没有单独核对，所以技术栈里不写成已经确认的 FastAPI。没有公开仓库链接。",
+        "en": "The backend is Python. The layout looks like FastAPI, but the dependency manifest was not checked, so the stack does not claim FastAPI as confirmed. There is no public repository link."
+      }
+    },
+    {
+      "id": "photosync",
+      "kind": "personal",
+      "title": { "zh": "PhotoSync", "en": "PhotoSync" },
+      "summary": {
+        "zh": "把 iPhone 原片增量备份到 Mac mini 的 SMB 共享。凭证放在系统钥匙串，传输走 Tailscale。",
+        "en": "Incrementally backs up original iPhone photos to an SMB share on a Mac mini. Credentials stay in the system keychain. Transfer goes over Tailscale."
+      },
+      "period": { "zh": "活动至 2026-10-27", "en": "Activity through 27 Oct 2026" },
+      "problem": {
+        "zh": "原片体积大，不适合每次整库重拷。需要只同步新增文件，把凭证放进钥匙串，再写到 Mac mini 上的 SMB 目录。",
+        "en": "Originals are large, so copying the whole library each time is a poor fit. New files should sync on their own, with credentials in the keychain, onto an SMB share on a Mac mini."
+      },
+      "role": [
+        {
+          "zh": "个人项目，唯一作者。",
+          "en": "Personal project. Sole author."
+        },
+        {
+          "zh": "最近活动记录到 2026-10-27。",
+          "en": "Latest recorded activity: 27 October 2026."
+        }
+      ],
+      "diagram": {
+        "caption": {
+          "zh": "增量同步由 Swift 完成。SMB 客户端使用 AMSMB2。工程用 XcodeGen 生成。",
+          "en": "Incremental sync is Swift. The SMB client is AMSMB2. The project is generated with XcodeGen."
+        },
+        "steps": [
+          {
+            "title": { "zh": "来源", "en": "Source" },
+            "items": [{ "zh": "iPhone 原片", "en": "iPhone originals" }]
+          },
+          {
+            "title": { "zh": "应用", "en": "App" },
+            "items": [
+              "Swift",
+              { "zh": "钥匙串", "en": "Keychain" },
+              "AMSMB2"
+            ]
+          },
+          {
+            "title": { "zh": "网络", "en": "Network" },
+            "items": ["Tailscale"]
+          },
+          {
+            "title": { "zh": "目的地", "en": "Destination" },
+            "items": [{ "zh": "Mac mini · SMB", "en": "Mac mini · SMB" }]
+          }
+        ]
+      },
+      "stack": ["Swift", "XcodeGen", "AMSMB2", "Keychain", "SMB", "Tailscale"]
+    },
+    {
+      "id": "cosmic",
+      "kind": "case",
+      "title": {
+        "zh": "COSMIC AI 检查工具",
+        "en": "COSMIC AI checker"
+      },
+      "summary": {
+        "zh": "检查 COSMIC 功能拆分 Excel 和概要设计 Word 是否一致，并生成 Markdown、JSON、HTML 报告。Windows 和 macOS 都能用。场景是某省运营商的软件造价评估。",
+        "en": "Checks a COSMIC function-split spreadsheet against an outline-design Word document, then writes Markdown, JSON, and HTML reports. Runs on Windows and macOS. The setting was software cost estimation for a provincial telecom operator."
+      },
+      "problem": {
+        "zh": "造价评估里，功能点拆分表和概要设计需要对得上。这个工具读 Excel 和 Word，把检查结果做成报告。",
+        "en": "In a cost estimate, the function-point breakdown and the outline design have to agree. The tool reads the spreadsheet and the Word document and writes a report."
+      },
+      "role": [
+        {
+          "zh": "作为我编写的内部工具展示。",
+          "en": "Shown as an internal tool I wrote."
+        },
+        {
+          "zh": "工作副本不是独立 git 仓库，提交记录无法核对。",
+          "en": "The working copy was not a separate git repository, so a commit history is not available."
+        }
+      ],
+      "diagram": {
+        "caption": {
+          "zh": "界面可能是 Tk，也可能在浏览器里看报告。两种形式在素材里都出现过，没有进一步拆开。",
+          "en": "The UI may be Tk, or the report may open in a browser. The source notes mention both and do not separate them further."
+        },
+        "steps": [
+          {
+            "title": { "zh": "输入", "en": "Input" },
+            "items": [
+              { "zh": "Excel 功能拆分", "en": "Excel function split" },
+              { "zh": "Word 概要设计", "en": "Word outline design" }
+            ]
+          },
+          {
+            "title": { "zh": "检查", "en": "Check" },
+            "items": ["Python", "openpyxl", "python-docx"]
+          },
+          {
+            "title": { "zh": "界面", "en": "UI" },
+            "items": [
+              { "zh": "Tk 或浏览器", "en": "Tk or a browser" }
+            ]
+          },
+          {
+            "title": { "zh": "报告", "en": "Report" },
+            "items": ["Markdown", "JSON", "HTML"]
+          }
+        ]
+      },
+      "stack": ["Python", "openpyxl", "python-docx", "Tk"]
+    },
+    {
+      "id": "inspection",
+      "kind": "case",
+      "title": { "zh": "视频智能巡检", "en": "Video inspection" },
+      "summary": {
+        "zh": "接入 RTSP、视频文件或摄像头，检测离岗、区域入侵、人员聚集、明火和吸烟，并把告警推到 Webhook。这是一次概念验证。",
+        "en": "Takes RTSP, a video file, or a camera, detects someone off post, zone intrusion, crowding, open flame, and smoking, and pushes alerts to a webhook. This was a proof of concept."
+      },
+      "problem": {
+        "zh": "需要一条轻量的巡检链路，对几类明确的情况告警，而不是先搭一整套视频平台。",
+        "en": "The need was a light inspection path that alerts on a few explicit situations, rather than a full video platform."
+      },
+      "role": [
+        {
+          "zh": "作为我编写的概念验证展示。",
+          "en": "Shown as a proof of concept I wrote."
+        },
+        {
+          "zh": "工作副本不是 git 仓库，提交记录无法核对。",
+          "en": "The working copy was not a git repository, so a commit history is not available."
+        }
+      ],
+      "diagram": {
+        "caption": {
+          "zh": "推理使用 Ultralytics YOLOv8，跑在 PyTorch CPU 上。旁边有一个 Web 界面。本页不用现场画面。",
+          "en": "Inference is Ultralytics YOLOv8 on PyTorch CPU, with a web UI beside it. This page uses no on-site footage."
+        },
+        "steps": [
+          {
+            "title": { "zh": "输入", "en": "Input" },
+            "items": [
+              "RTSP",
+              { "zh": "视频文件", "en": "Video file" },
+              { "zh": "摄像头", "en": "Camera" }
+            ]
+          },
+          {
+            "title": { "zh": "检测", "en": "Detection" },
+            "items": ["YOLOv8", "PyTorch CPU"]
+          },
+          {
+            "title": { "zh": "类别", "en": "Classes" },
+            "items": [
+              { "zh": "离岗", "en": "Off post" },
+              { "zh": "区域入侵", "en": "Zone intrusion" },
+              { "zh": "人员聚集", "en": "Crowding" },
+              { "zh": "明火", "en": "Open flame" },
+              { "zh": "吸烟", "en": "Smoking" }
+            ]
+          },
+          {
+            "title": { "zh": "出口", "en": "Outlet" },
+            "items": [
+              "Webhook",
+              { "zh": "Web 界面", "en": "Web UI" }
+            ]
+          }
+        ]
+      },
+      "stack": ["Python", "YOLOv8", "Ultralytics", "PyTorch", "Webhook"],
+      "note": {
+        "zh": "检测模型是 Ultralytics YOLOv8，许可证为 AGPL-3.0。若放进闭源产品，或作为网络服务对外提供，需要另行确认许可证义务。本页不使用任何现场照片或视频。",
+        "en": "Detection uses Ultralytics YOLOv8, licensed AGPL-3.0. Shipping it inside a closed-source product, or offering it as a network service, needs a separate look at the license. This page uses no on-site photos or video."
+      },
+      "links": [
+        {
+          "href": "https://github.com/ultralytics/ultralytics",
+          "label": "ultralytics/ultralytics"
+        },
+        {
+          "href": "https://www.gnu.org/licenses/agpl-3.0.html",
+          "label": "AGPL-3.0"
+        }
+      ]
+    },
+    {
+      "id": "r2-relay",
+      "kind": "personal",
+      "title": { "zh": "r2-relay", "en": "r2-relay" },
+      "summary": {
+        "zh": "用 Cloudflare R2 在两台机器之间中转大文件或部署包，到期后自动清理。",
+        "en": "Relays large files or deploy bundles between two machines through Cloudflare R2, then deletes them when they expire."
+      },
+      "period": { "zh": "活动至 2026-09-02", "en": "Activity through 2 Sep 2026" },
+      "problem": {
+        "zh": "两台机器之间要传大文件或部署包，又不希望这些对象一直留在存储里。",
+        "en": "Two machines need to exchange large files or deploy bundles without leaving the objects in storage indefinitely."
+      },
+      "role": [
+        {
+          "zh": "个人基础设施，唯一作者。",
+          "en": "Personal infrastructure. Sole author."
+        },
+        {
+          "zh": "最近活动记录到 2026-09-02。",
+          "en": "Latest recorded activity: 2 September 2026."
+        }
+      ],
+      "diagram": {
+        "caption": {
+          "zh": "两边都用 rclone。清理和常驻方式是 systemd。脚本是 Bash。",
+          "en": "Both sides use rclone. Expiry and the long-running process are systemd. The scripts are Bash."
+        },
+        "steps": [
+          {
+            "title": { "zh": "机器 A", "en": "Machine A" },
+            "items": ["Bash", "rclone"]
+          },
+          {
+            "title": { "zh": "中转", "en": "Relay" },
+            "items": [
+              "Cloudflare R2",
+              { "zh": "到期删除", "en": "Delete on expiry" }
+            ]
+          },
+          {
+            "title": { "zh": "机器 B", "en": "Machine B" },
+            "items": ["rclone"]
+          },
+          {
+            "title": { "zh": "托管", "en": "Host" },
+            "items": ["systemd"]
+          }
+        ]
+      },
+      "stack": ["Bash", "rclone", "systemd", "Cloudflare R2"],
+      "note": {
+        "zh": "个人项目，仓库是公开的。",
+        "en": "Personal project. The repository is public."
+      },
+      "links": [
+        {
+          "href": "https://github.com/IVMYM/r2-relay",
+          "label": "IVMYM/r2-relay"
+        }
+      ]
+    }
+  ],
+  "also": {
+    "intro": {
+      "zh": "下面不是代表作。第一组是任职期间接触过的系统：除笔记服务有一次导入提交外，没有记在我名下的提交，或提交数没有单独统计。第二组是小型工具。r2-relay 和 COSMIC 检查见上面的代表作。",
+      "en": "Not featured work. The first group is systems I was around at a software company. Apart from one import commit on the note service, they have no commits under my name, or the count was not recorded separately. The second group is small tools. r2-relay and the COSMIC checker are in selected work above."
+    },
+    "groups": [
+      {
+        "title": {
+          "zh": "任职期间还接触过",
+          "en": "Also around these, at a software company"
+        },
+        "items": [
+          {
+            "title": { "zh": "公司的 AI 助手", "en": "Company AI assistant" },
+            "text": {
+              "zh": "PC 前端和服务端。Java 17、Spring Boot 3.4。",
+              "en": "PC front end and server. Java 17, Spring Boot 3.4."
+            }
+          },
+          {
+            "title": { "zh": "笔记服务", "en": "Note service" },
+            "text": {
+              "zh": "独立部署，Java、Spring Boot、Docker。账号使用 Agent 平台的用户表。我参与过一次导入。",
+              "en": "Deployed on its own. Java, Spring Boot, Docker. Accounts use the agent platform’s user table. I took part in one import."
+            }
+          },
+          {
+            "title": { "zh": "内部项目管理", "en": "Internal project tracking" },
+            "text": {
+              "zh": "Java 17、Spring Boot 3.5。",
+              "en": "Java 17, Spring Boot 3.5."
+            }
+          },
+          {
+            "title": { "zh": "语音质检", "en": "Voice quality inspection" },
+            "text": {
+              "zh": "某省运营商的语音质检服务。Java 17、Spring Boot 3.4、MySQL。",
+              "en": "Voice quality inspection for a provincial telecom operator. Java 17, Spring Boot 3.4, MySQL."
+            }
+          },
+          {
+            "title": { "zh": "运营商 AI 平台", "en": "Operator AI platform" },
+            "text": {
+              "zh": "某省运营商，含工单自动分派。Java 8。",
+              "en": "A provincial telecom operator, including automatic work-order dispatch. Java 8."
+            }
+          },
+          {
+            "title": { "zh": "AI 服务统一纳管", "en": "Unified AI service orchestration" },
+            "text": {
+              "zh": "Java 8、Spring Boot 2.6、Python。提交数没有单独统计。",
+              "en": "Java 8, Spring Boot 2.6, Python. The commit count was not recorded separately."
+            }
+          },
+          {
+            "title": { "zh": "NESMA 功能点资料", "en": "NESMA function-point material" },
+            "text": {
+              "zh": "功能点估算文档。某省运营商场景。",
+              "en": "Documentation for function-point estimation. A provincial telecom operator setting."
+            }
+          }
+        ]
+      },
+      {
+        "title": { "zh": "小型工具", "en": "Small tools" },
+        "items": [
+          {
+            "title": { "zh": "Git 日报", "en": "Git daily report" },
+            "text": {
+              "zh": "Python。汇总 Git 提交和 Excel 计划，生成日报，预览确认后再发邮件。",
+              "en": "Python. Rolls Git commits and an Excel plan into a daily report, and sends mail only after a preview is confirmed."
+            }
+          },
+          {
+            "title": { "zh": "Chrome 办公助手", "en": "Chrome office assistant" },
+            "text": {
+              "zh": "一个用于办公辅助的 Chrome 扩展。",
+              "en": "A Chrome extension for office assistance."
+            }
+          },
+          {
+            "title": { "zh": "个人大模型网关", "en": "Personal LLM gateway" },
+            "text": {
+              "zh": "用 Docker Compose 部署 New API，数据库是 Postgres 和 Redis，只在私网访问。",
+              "en": "A personal deployment of New API with Docker Compose, Postgres, and Redis, reachable only on a private network."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "skills": [
+    {
+      "title": { "zh": "语言", "en": "Languages" },
+      "items": ["Python", "Java", "JavaScript", "Swift", "Bash"]
+    },
+    {
+      "title": { "zh": "服务端", "en": "Server" },
+      "items": ["Spring Boot", "FastAPI", "Node.js", "FastMCP", "SM4"]
+    },
+    {
+      "title": { "zh": "模型与数据", "en": "Models and data" },
+      "items": [
+        "YOLO",
+        "YOLOv8",
+        "Qwen",
+        "Qwen-VL",
+        "sqlglot",
+        "PyTorch",
+        "PostgreSQL",
+        "MySQL",
+        "Redis"
+      ]
+    },
+    {
+      "title": { "zh": "界面与客户端", "en": "UI and clients" },
+      "items": ["React", "ECharts", "CodeMirror", "Electron", "Swift"]
+    },
+    {
+      "title": { "zh": "交付", "en": "Delivery" },
+      "items": [
+        "Docker",
+        "Docker Compose",
+        "Nginx",
+        "Kafka",
+        "systemd",
+        "rclone",
+        "Cloudflare R2",
+        "GitHub Actions"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "TODO"
+  }
+}

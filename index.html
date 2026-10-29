@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hans" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>刘源 · Yuan Liu</title>
+    <meta
+      name="description"
+      content="刘源（Yuan Liu），独立承接 AI 应用、企业系统、网站与小程序开发。"
+    />
+    <meta name="theme-color" content="#e9e4d9" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <script>
+      (function () {
+        var theme = localStorage.getItem("theme");
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.setAttribute("data-theme", theme);
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute("content", theme === "dark" ? "#121411" : "#e9e4d9");
+        var lang = localStorage.getItem("lang");
+        if (lang !== "en" && lang !== "zh") lang = "zh";
+        document.documentElement.lang = lang === "en" ? "en" : "zh-Hans";
+      })();
+    </script>
+    <style>
+      html[data-theme="light"] { background: #e9e4d9; color: #1b1914; }
+      html[data-theme="dark"] { background: #121411; color: #f3efe6; }
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#content"></a>
+    <div id="app"></div>
+    <noscript>
+      <p>需要启用 JavaScript 才能浏览此页面。 / JavaScript is required to view this page.</p>
+    </noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
