@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/check-content.mjs && vite build",
+    "preview": "vite preview",
+    "check": "node scripts/check-content.mjs",
+    "fonts": "node scripts/subset-fonts.mjs"
+  },
+  "devDependencies": {
+    "vite": "^6.4.1"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "^5.2.5",
+    "@fontsource/newsreader": "^5.2.8",
+    "@fontsource/outfit": "^5.2.8"
+  }
+}
